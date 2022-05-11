@@ -18,6 +18,15 @@ console.log(idade++); // se quiser que imprima na mesma linha terá que colocar 
 console.log(idade);
 
 // Operadores Atribuição
+
+let valorTecladoGamer = 100;
+// valorTecladoGamer = valorTecladoGamer + valorTecladoGamer;
+valorTecladoGamer += valorTecladoGamer;
+console.log(valorTecladoGamer);
+
+
+
+
 // Operadores Lógicos
 // Operadores Bitwise
 
