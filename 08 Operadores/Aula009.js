@@ -47,6 +47,31 @@ let tipo = pontos > 100 ? 'premium' : 'comum';
 console.log(tipo);
 
 // Operadores Lógicos
-// Operadores Bitwise
+
+// e (&&) - Retorna TRUE se os dois operandos forem true
+
+//console.log(false && true);
+
+let maiorDeIdade = true;
+let possuiCarteiraDeTrabalho = true;
+let podeAplicar = maiorDeIdade && possuiCarteiraDeTrabalho;
+
+console.log(podeAplicar);
+
+
+// OU (||)  - Retorna TRUE se um dos operandos forem true
+
+let maiorDeIdade1 = true;
+let possuiCarteiraDeTrabalho1 = false;
+let podeAplicar1 = maiorDeIdade1 || possuiCarteiraDeTrabalho1;
+
+console.log('pode aplicar1:',podeAplicar1);
+
+// Operador NOT (!)  - Nega uma operação
+
+let candidatoRecusado = !podeAplicar1;
+
+console.log('Candidato Recusado',candidatoRecusado);
+
 
 
