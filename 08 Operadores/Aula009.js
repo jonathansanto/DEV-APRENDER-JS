@@ -37,6 +37,15 @@ console.log('1' === 1);
     console.log(1 == 1);
     console.log('1' == 1);
 
+// Operador Ternário   
+
+// Tem um cliente, se tiver + de 100 pontos será premium, se tiver - 100 pontos, comum
+
+let pontos = 100;
+let tipo = pontos > 100 ? 'premium' : 'comum';
+
+console.log(tipo);
+
 // Operadores Lógicos
 // Operadores Bitwise
 
