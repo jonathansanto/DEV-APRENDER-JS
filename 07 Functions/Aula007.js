@@ -2,10 +2,10 @@
 
 
 let corSite = "azul";
-function resetaCor (){
-    corSite = "";
+function resetaCor (cor){
+    corSite = cor;
 };
 
 console.log(corSite);
-resetaCor();
+resetaCor("vermelho");
 console.log(corSite);
